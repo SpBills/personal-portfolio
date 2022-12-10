@@ -1,7 +1,9 @@
 <script>
+    import Overlay from "$lib/overlay.svelte";
   import "../app.css"
 </script>
 
-<main class="flex w-screen min-h-screen">
+<Overlay />
+<main class="flex flex-col max-w-screen min-h-screen mb-5">
   <slot />
 </main>
