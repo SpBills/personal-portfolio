@@ -11,6 +11,12 @@
 
   const resume_items: Array<ResumeItem> = [
     {
+      title: "Radical",
+      description: "An open source Rust-based headless content management system.",
+      image_src: "https://avatars.githubusercontent.com/u/77416525",
+      url: "https://github.com/Rust-CMS",
+    },
+    {
       title: "Creative Solutions Group",
       description: "A team of eight software developers for Cedarville University- of which I am the team lead and tech lead.",
       image_src: "https://github.com/CreativeSolutionsGroup/.github/raw/main/csg-social-logo.jpg",
@@ -27,7 +33,7 @@
 <div class="flex mx-5 md:mx-0 justify-center w-full md:w-10/12 flex-wrap">
   {#each resume_items as item}
     <div
-      class="rounded overflow-hidden mx-5 shadow-lg w-full md:w-1/3 pb-5 flex flex-col"
+      class="rounded mt-5 overflow-hidden mx-5 shadow-lg w-full md:w-1/4 pb-5 flex flex-col"
       on:click={() => goto(item.url ?? "")}
       style:cursor={item.url ? "pointer" : ""}
     >
