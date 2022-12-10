@@ -1,3 +1,11 @@
+<script>
+    import Overlay from "$lib/overlay.svelte";
+
+</script>
+
+
+<Overlay />
+
 <div class="flex flex-col justify-center ml-5 md:ml-20">
   <h1 class="text-5xl">Spencer Bills</h1>
   <p class="mt-5">Fullstack Software Developer</p>
