@@ -9,7 +9,7 @@
 <div class="flex mx-5 md:mx-0 justify-center w-full md:w-10/12 flex-wrap">
   {#each portfolio_items as item}
     <div
-      class="rounded mt-5 overflow-hidden mx-5 shadow-lg w-full md:w-1/4 pb-5 flex flex-col"
+      class="rounded mt-5 overflow-hidden mx-5 shadow-lg w-full lg:w-1/4 pb-5 flex flex-col"
       on:click={() => goto(item.url ?? "")}
       style:cursor={item.url ? "pointer" : ""}
     >

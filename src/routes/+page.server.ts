@@ -1,6 +1,7 @@
 import type { PortfolioItem } from "$lib/models/PortfolioItem";
 import lapinv from "$lib/assets/lapinv.png";
 import fbcms from "$lib/assets/fbcms.png";
+import web from "$lib/assets/this.png";
 const freelancing_experience = [
   {
     title: "LapInv",
@@ -35,6 +36,7 @@ const open_source_experience = [
   {
     title: "Personal Website",
     description: "A SvelteKit website with heavy use of TailwindCSS, animations, and other cool technologies.",
+    image_src: web,
     url: "https://github.com/SpBills/personal-portfolio",
   },
 ] as Array<PortfolioItem>;
