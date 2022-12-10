@@ -12,7 +12,7 @@
   const resume_items: Array<ResumeItem> = [
     {
       title: "Rapit",
-      description: "A Programming Language Developed in Rust",
+      description: "A journey in self-education and compiler theory.",
       image_src: p1,
       url: "https://github.com/SpBills/Rapit",
     },

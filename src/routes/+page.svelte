@@ -12,13 +12,15 @@
   >
     <div class="flex flex-col order-2 md:order-first">
       <h1 class="text-5xl mt-5 md:mt-0">Spencer Bills</h1>
-      <h2 class="mt-5">Fullstack Software Developer</h2>
+      <h2 class="mt-5">Full Stack Software Developer</h2>
       <a class="mt-5 underline" href={resume}>Download My Resume</a>
     </div>
-    <img src={me} class="order-1 md:order-last w-64 h-64" alt="My face." />
+    <div class="flex items-center justify-center rounded-full w-72 h-72 bg-blue-50">
+      <img src={me} class="order-1 md:order-last w-64 h-64" alt="My face." />
+    </div>
   </div>
   <div class="flex pb-5 opacity-50 flex-col items-center">
-    Scroll for portfolio
+    
   </div>
 </div>
 <div class="mt-20">
