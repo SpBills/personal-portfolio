@@ -1,17 +1,14 @@
 import type { PortfolioItem } from "$lib/models/PortfolioItem";
-import lapinv from "$lib/assets/lapinv.png";
-import fbcms from "$lib/assets/fbcms.png";
-import web from "$lib/assets/this.png";
 const freelancing_experience = [
   {
     title: "LapInv",
     description: "A laptop inventory management system for Wetzel County School district, managing hundreds of student records daily.",
-    image_src: lapinv
+    image_src: "lapinv.png"
   },
   {
     title: "Firebase CMS",
     description: "Developed from start to finish in less than a month, a fully featured CMS hosted in Firebase.",
-    image_src: fbcms
+    image_src: "fbcms.png"
   },
 ] as Array<PortfolioItem>;
 
@@ -36,7 +33,7 @@ const open_source_experience = [
   {
     title: "Personal Website",
     description: "A SvelteKit website with heavy use of TailwindCSS, animations, and other cool technologies.",
-    image_src: web,
+    image_src: "this.png",
     url: "https://github.com/SpBills/personal-portfolio",
   },
 ] as Array<PortfolioItem>;
