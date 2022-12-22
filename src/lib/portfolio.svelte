@@ -9,7 +9,7 @@
 <div class="flex mx-5 md:mx-0 justify-center w-full md:w-10/12 flex-wrap">
   {#each portfolio_items as item}
     <a
-      class="rounded hover:shadow-xl hover:shadow-blue-200 transition mt-5 overflow-hidden mx-5 shadow-lg w-full lg:w-1/4 pb-5 flex flex-col"
+      class="rounded transition mt-5 overflow-hidden mx-5 shadow-lg w-full lg:w-1/4 pb-5 flex flex-col {item.url && 'hover:shadow-xl hover:shadow-blue-200'}"
       href={item.url || "javascript:;"}
       style:cursor={item.url ? "pointer" : "initial"}
     >
