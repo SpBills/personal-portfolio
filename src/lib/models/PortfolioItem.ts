@@ -3,4 +3,5 @@ export interface PortfolioItem {
   description: string;
   url?: string;
   image_src?: string;
+  timeline?: string;
 }
