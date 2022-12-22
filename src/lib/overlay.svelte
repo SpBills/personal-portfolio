@@ -24,7 +24,7 @@
   });
 </script>
 
-<div class="z-10 left-0 w-screen top-0 absolute h-screen overflow-hidden" style:display={display ? "block" : "none"}>
+<div class="z-10 left-0 top-0 w-full absolute h-screen overflow-hidden" style:display={display ? "block" : "none"}>
   <div class="w-1/3 absolute  h-full bg-blue-300" style:top="{$top_l}%" />
   <div class="w-1/3 absolute left-1/3 h-full bg-blue-400" style:top="{$top_m}%" />
   <div class="w-1/3 absolute left-2/3 h-full bg-blue-500" style:top="{$top_r}%" />
