@@ -23,6 +23,12 @@ const freelancing_experience = [
 
 const open_source_experience = [
   {
+    title: "CardPlace",
+    description: "A NextJS, TailwindUI, and Prisma online shop utilizing Stripe.",
+    image_src: "cardplace.png",
+    url: "https://github.com/SpBills/cardplace",
+  },
+  {
     title: "Radical",
     description: "An open source Rust-based headless content management system.",
     image_src: "https://avatars.githubusercontent.com/u/77416525",
