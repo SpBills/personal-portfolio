@@ -2,7 +2,7 @@ import type { PortfolioItem } from "$lib/models/PortfolioItem";
 const freelancing_experience = [
   {
     title: "Login and Registration",
-    href: "https://login-registration-plum.vercel.app/login",
+    url: "https://login-registration-plum.vercel.app/login",
     description: "A login and registration page implemented in React, Remix, TailwindUI, Firebase Auth, and Firestore, using Vercel as hosting",
     image_src: "signup.png"
   },
